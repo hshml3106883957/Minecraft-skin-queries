@@ -14,7 +14,8 @@ class MinecraftSkinGUI:
         self.root = root
         self.root.title("Minecraft 皮肤查询器")
         self.root.geometry("800x700")  # 调整窗口大小
-        
+        self.root.iconbitmap("awa.ico")
+
         # 设置主题样式
         style = ttk.Style()
         style.configure(
